@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Imagen;
+use App\Models\Image;
 use Illuminate\Http\Request;
 
-class ImagenController extends Controller
+class ImageController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class ImagenController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\Imagen  $imagen
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function show(Imagen $imagen)
+    public function show(Image $image)
     {
         //
     }
@@ -52,10 +52,10 @@ class ImagenController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\Imagen  $imagen
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function edit(Imagen $imagen)
+    public function edit(Image $image)
     {
         //
     }
@@ -64,10 +64,10 @@ class ImagenController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Imagen  $imagen
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Imagen $imagen)
+    public function update(Request $request, Image $image)
     {
         //
     }
@@ -75,10 +75,10 @@ class ImagenController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\Imagen  $imagen
+     * @param  \App\Models\Image  $image
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Imagen $imagen)
+    public function destroy(Image $image)
     {
         //
     }
